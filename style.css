@@ -12,6 +12,36 @@
     --transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
+.footer-col ul li a {
+    display: inline-block;
+    color: #ccc;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 6px 0;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.footer-col ul li a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #00ff88; /* verde neón */
+    transition: width 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #00ff88; /* cambia el color del texto al pasar el mouse */
+}
+
+.footer-col ul li a:hover::after {
+    width: 100%;
+}
+
+
 /* Reset básico */
 * {
     margin: 0;
