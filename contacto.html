@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Fabri</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://i.imgur.com/BmxLARA.png">
+</head>
+<body>
+    <!-- Fondo de partículas -->
+    <div id="particles-js"></div>
+
+    <!-- Navegación -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="https://i.imgur.com/G23tjEq.png" alt="FbP Logo" />
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre-mi.html">Sobre Mí</a></li>
+            <li><a href="comunidad.html">Comunidad</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <div class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+
+    <section class="contact-section">
+        <div class="contact-info">
+            <h2>Contáctame</h2>
+            <p>¿Tienes un proyecto en mente? ¿Quieres colaborar o simplemente saludar? Estoy disponible para nuevas oportunidades y conversaciones interesantes.</p>
+            
+            <div class="contact-details">
+                <div class="contact-detail">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Email</h4>
+                        <a href="mailto:fabri.devv@gmail.com">fabri.devv@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <div class="contact-icon">
+                        <i class="fab fa-discord"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Discord</h4>
+                        <a href="https://discord.gg/mjA4RKeXhf">Fabri - Army</a>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <div class="contact-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Instagram</h4>
+                        <a href="https://instagram.com/fabrrooo">@fabrrooo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <form class="contact-form" id="contactForm">
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" class="form-control" placeholder="Tu nombre completo">
+                <div class="validation-message" id="nameError">Por favor ingresa tu nombre</div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control" placeholder="tu@email.com">
+                <div class="validation-message" id="emailError">Por favor ingresa un email válido</div>
+            </div>
+            <div class="form-group">
+                <label for="subject">Asunto</label>
+                <input type="text" id="subject" class="form-control" placeholder="¿Sobre qué quieres hablar?">
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea id="message" class="form-control" placeholder="Escribe tu mensaje aquí..."></textarea>
+                <div class="validation-message" id="messageError">Por favor escribe un mensaje</div>
+            </div>
+            <button type="submit" class="submit-btn">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Fabri</h4>
+                    <p>Soy alguien que disfruta crear cosas que ayuden a otros. Me gusta probar, equivocarme y volver a intentar, siempre con ganas de aprender y compartir lo que hago.</p>
+                <div class="social-links">
+                    <a href="https://github.com/FabriDevelope"><i class="fab fa-github"></i></a>
+                    <a href="https://discord.gg/mjA4RKeXhf"><i class="fab fa-discord"></i></a>
+                    <a href="https://www.instagram.com/fabrrooo"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@Fabridvp"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://kick.com/fabridvp"><i class="fa-brands fa-kickstarter-k"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Enlaces</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobre-mi.html">Sobre Mí</a></li>
+                    <li><a href="comunidad.html">Comunidad</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <p><i class="fas fa-envelope"></i> fabri.devv@gmail.com</p>
+                <p><i class="fab fa-discord"></i> https://discord.gg/mjA4RKeXhf</p>
+                <p><i class="fab fa-instagram"></i> @fabrrooo</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Fabri. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
